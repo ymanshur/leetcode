@@ -1,5 +1,5 @@
 func isAnagram(s string, t string) bool {
-    if len(t) != len(s) {return false
+    if len(t) != len(s) {
         return false
     }
     alphaMap := make([]int, 26)
