@@ -6,25 +6,18 @@
  * }
  */
 func reverseList(head *ListNode) *ListNode {
-    var prev, curr *ListNode = nil, head
-    for curr != nil {
-        // saving the next point
-        // next := curr.Next
-        // changing it previous
-        // curr.Next = prev
-        // setting previous to current
-        // prev = curr
-        // setting next to current
-        // curr = next
+    var newHead *ListNode
+    var helper func(*ListNode, *ListNode)
+    helper = func(prev, curr *ListNode) {
+        if curr == nil {
+            newHead = prev
+            return
+        }
         
-        prev, curr, curr.Next = curr, curr.Next, prev
-
-        // list := prev
-        // for list != nil {
-        //     fmt.Printf("%+v->", list.Val)
-        //     list = list.Next
-        // }
-        // fmt.Println()
+        helper(curr, curr.Next)
+        curr.Next = prev
     }
-    return prev
+
+    helper(nil, head)
+    return newHead
 }
