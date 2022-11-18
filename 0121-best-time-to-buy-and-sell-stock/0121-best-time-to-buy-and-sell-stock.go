@@ -1,13 +1,12 @@
 func maxProfit(prices []int) int {
+    minPrice := prices[0]
     maxProfit := 0
-    var left int // buy pointer
-    var right int // sell pointer
-    for left, right = 0, 1; right < len(prices); right++ {
-        if prices[right] < prices[left] {
-            left = right
+    for i := 1; i < len(prices); i++ {
+        if prices[i] < minPrice {
+            minPrice = prices[i]
         }
-        // profit = sell - buy
-        if profit := prices[right] - prices[left]; profit > maxProfit {
+        profit := prices[i] - minPrice
+        if profit > maxProfit {
             maxProfit = profit
         }
     }
