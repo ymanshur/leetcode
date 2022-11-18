@@ -1,12 +1,3 @@
-func isOpenBracket(char rune) bool {
-    for _, openBracket := range []rune{'(', '{', '['} {
-        if char == openBracket {
-            return true
-        }
-    }
-    return false
-}
-
 func isValid(s string) bool {
     var stack []rune
     var closeBracket = map[rune]rune{
@@ -16,7 +7,7 @@ func isValid(s string) bool {
     }
     for _, char := range s {
         // if the char is open bracket, push into stack
-        if isOpenBracket(char) {
+        if char == '(' || char == '{' || char == '[' {
             stack = append(stack, char)
         } else {
             // if the char is close bracket and the stack is empty, return false
@@ -28,14 +19,11 @@ func isValid(s string) bool {
             lastIndex := len(stack)-1
             topStack := stack[lastIndex]
             if  char != closeBracket[topStack] {
-                    return false
+                return false
             } else {                
                 stack = stack[:len(stack)-1]            
             }
         }
     }
-    if len(stack) > 0 {
-        return false
-    }
-    return true
+    return len(stack) == 0
 }
