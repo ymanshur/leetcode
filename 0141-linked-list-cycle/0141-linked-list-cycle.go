@@ -6,12 +6,12 @@
  * }
  */
 func hasCycle(head *ListNode) bool {
-    nodeMap := make(map[*ListNode]int)
+    nodeMap := make(map[*ListNode]bool)
     for head != nil {
-        if _, ok := nodeMap[head]; !ok {
-            nodeMap[head] = head.Val
-        } else {
+        if nodeMap[head] {
             return true
+        } else {
+            nodeMap[head] = true
         }
         head = head.Next
     }
