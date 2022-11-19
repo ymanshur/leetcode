@@ -6,15 +6,13 @@
  * }
  */
 func hasCycle(head *ListNode) bool {
-    var headNext = head
-    for head != nil {
-        if headNext != nil && headNext.Next != nil {
-            headNext = headNext.Next.Next
-            if head == headNext {
-                return true
-            }
+    slowP, fastP := head, head // slow pointer, fast pointer are start at same node
+    for fastP != nil && fastP.Next != nil {
+        slowP = slowP.Next
+        fastP = fastP.Next.Next
+        if slowP == fastP {
+            return true
         }
-        head = head.Next
     }
     return false
 }
