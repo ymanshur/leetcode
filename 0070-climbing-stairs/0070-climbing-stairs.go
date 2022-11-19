@@ -4,7 +4,6 @@ func climbStairs(n int) int {
     numStepMap := make(map[int]int)
 
     numStep = func(num int) int {
-        fmt.Println(num)
         if _, ok := numStepMap[num]; ok {
             return numStepMap[num]
         }
