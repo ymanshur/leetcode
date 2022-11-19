@@ -6,16 +6,17 @@
  *     Right *TreeNode
  * }
  */
-func reverseChild(root *TreeNode) {
-    if root == nil {
-        return
-    }
-    root.Left, root.Right = root.Right, root.Left
-    reverseChild(root.Left)
-    reverseChild(root.Right)
-}
-
 func invertTree(root *TreeNode) *TreeNode {
-    reverseChild(root)
+    if root == nil {
+        return nil
+    }
+    
+    // reverse the children
+    root.Left, root.Right = root.Right, root.Left
+    // invert the left sub tree
+    invertTree(root.Left)
+    // invert the right sub tree
+    invertTree(root.Right)
+
     return root
 }
