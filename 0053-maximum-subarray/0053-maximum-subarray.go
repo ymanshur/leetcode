@@ -1,16 +1,17 @@
 func maxSubArray(nums []int) int {
-    maxSum := nums[0]
-    currSum := 0
+    maxSum, currSum := nums[0], nums[0]
     
-    for _, num := range nums {
+    for i := 1; i < len(nums); i++ {
         if currSum < 0 {
-            currSum = 0
+            currSum = nums[i]
+        } else {
+            currSum += nums[i]
         }
-        currSum += num
+
         if currSum > maxSum {
             maxSum = currSum
         }
     }
-    
+
     return maxSum
 }
