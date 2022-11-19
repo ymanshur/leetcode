@@ -12,23 +12,17 @@ func sameTree(root *TreeNode, subRoot *TreeNode) bool {
         return true
     }
     
-    if root != nil && subRoot != nil && root.Val == subRoot.Val {
-        return sameTree(root.Left, subRoot.Left) && sameTree(root.Right, subRoot.Right)
-    }
-    
-    return false
-}
-
-func isSubtree(root *TreeNode, subRoot *TreeNode) bool {
-    if subRoot == nil {
-        return true
-    } else if root == nil {
+    if root == nil || subRoot == nil || root.Val != subRoot.Val {
         return false
     }
     
-    if sameTree(root, subRoot) {
-        return true
+    return sameTree(root.Left, subRoot.Left) && sameTree(root.Right, subRoot.Right)
+}
+
+func isSubtree(root *TreeNode, subRoot *TreeNode) bool {
+    if root == nil {
+        return false
     }
-    
-    return isSubtree(root.Left, subRoot) || isSubtree(root.Right, subRoot)
+
+    return sameTree(root, subRoot) || isSubtree(root.Left, subRoot) || isSubtree(root.Right, subRoot)
 }
