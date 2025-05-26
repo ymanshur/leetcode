@@ -6,8 +6,7 @@ public:
         }
 
         int curr = 1;
-        int left = 0;
-        int ans = 0;
+        int left = 0, ans = 0;
 
         for (int right = 0; right < nums.size(); right++) {
             curr *= nums[right];
