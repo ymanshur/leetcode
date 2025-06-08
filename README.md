@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
 ## Binary Search
 |  |
@@ -19,4 +20,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
