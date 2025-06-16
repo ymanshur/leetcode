@@ -12,39 +12,31 @@
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
-        if (!root) {
-            return true;
-        }
-
-        int height = 0;
-        return isNodeBalanced(root, height);
+        return nodeHeight(root) != -1;
     }
 
 private:
-    bool isNodeBalanced(TreeNode* root, int& height) {
+    int nodeHeight(TreeNode* root) {
         if (!root) {
-            return true;
+            return 0;
+        }
+        
+        int leftHeight = nodeHeight(root->left);
+        if (leftHeight == -1) {
+            return -1;
         }
 
-        height++;
-
-        int leftH = 0, rightH = 0;
-        if (!isNodeBalanced(root->left, leftH)) {
-            return false;
+        int rightHeight = nodeHeight(root->right);
+        if (rightHeight == -1) {
+            return -1;
         }
 
-        if (!isNodeBalanced(root->right, rightH)) {
-            return false;
+        //cout << root->val << "->" << abs(leftHeight - rightHeight) << " ";
+
+        if (abs(leftHeight - rightHeight) > 1) {
+            return -1;
         }
 
-        if (leftH > rightH) {
-            height += leftH;
-        } else {
-            height += rightH;
-        }
-
-        //cout << root->val << "->" << abs(leftH - rightH) << " ";
-
-        return abs(leftH - rightH) <= 1;
+        return max(leftHeight, rightHeight) + 1;
     }
 };
