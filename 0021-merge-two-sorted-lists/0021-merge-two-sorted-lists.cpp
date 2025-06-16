@@ -11,47 +11,43 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* curr1 = list1;
-        ListNode* curr2 = list2;
-        ListNode* ans = nullptr;
+        if (!list1) {
+            return list2;
+        }
 
-        while (curr1 && curr2) {
-            int val;
-            if (curr1->val < curr2->val) {
-                val = curr1->val;
-                curr1 = curr1->next;
+        if (!list2) {
+            return list1;
+        }
+
+        ListNode* ans = list2;
+        if (list1->val < list2->val) {
+            ans = list1;
+            list1 = list1->next;
+        } else {
+            list2 = list2->next;
+        }
+
+        ListNode* curr = ans;
+        while (list1 && list2) {
+            if (list1->val < list2->val) {
+                curr->next = list1;
+                list1 = list1->next;
             } else {
-                val = curr2->val;
-                curr2 = curr2->next;
+                curr->next = list2;
+                list2 = list2->next;
             }
 
-            ListNode* x = new ListNode(val);
-            x->next = ans;
-            ans = x;
+            curr = curr->next;
         }
 
-        while (curr1) {
-            ListNode* x = new ListNode(curr1->val);
-            x->next = ans;
-            ans = x;
-            curr1 = curr1->next;
+        if (list1) {
+            curr->next = list1;
         }
 
-        while (curr2) {
-            ListNode* x = new ListNode(curr2->val);
-            x->next = ans;
-            ans = x;
-            curr2 = curr2->next;
-        }
-
-        ListNode* ans2 = nullptr;
-        while (ans) {
-            ListNode* x = new ListNode(ans->val);
-            x->next = ans2;
-            ans2 = x;
-            ans = ans->next;
+        if (list2) {
+            curr->next = list2;
         }
         
-        return ans2;
+        return ans;
     }
 };
