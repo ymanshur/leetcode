@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/ymanshur/leetcode/tree/master/0278-first-bad-version) |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
 ## Sliding Window
 |  |
@@ -67,4 +68,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/ymanshur/leetcode/tree/master/0110-balanced-binary-tree) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/ymanshur/leetcode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
