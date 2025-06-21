@@ -27,10 +27,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
+| [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 ## String
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
+| [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 ## Stack
 |  |
 | ------- |
@@ -83,4 +85,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
