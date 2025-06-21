@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
+| [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 ## Stack
 |  |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ymanshur/leetcode/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
 |  |
@@ -101,4 +103,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ymanshur/leetcode/tree/master/0070-climbing-stairs) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
