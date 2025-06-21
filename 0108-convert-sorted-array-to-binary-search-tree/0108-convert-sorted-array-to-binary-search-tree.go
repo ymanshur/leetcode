@@ -8,12 +8,12 @@
  */
 func sortedArrayToBST(nums []int) *TreeNode {
     root := BST(nums, 0, len(nums) - 1)
-    print(root)
+    //print(root)
     return root
 }
 
 func BST(nums []int, start, end int) *TreeNode {
-    if start > end || end < 0 || start > len(nums) - 1 {
+    if start > end {
         return nil
     }
 
