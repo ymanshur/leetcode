@@ -26,11 +26,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/ymanshur/leetcode/tree/master/0013-roman-to-integer) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ymanshur/leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ymanshur/leetcode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ymanshur/leetcode/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
