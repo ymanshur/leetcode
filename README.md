@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/ymanshur/leetcode/tree/master/0051-n-queens) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
 ## Tree
 |  |
