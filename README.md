@@ -45,11 +45,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
+| [0874-backspace-string-compare](https://github.com/ymanshur/leetcode/tree/master/0874-backspace-string-compare) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
 | [0232-implement-queue-using-stacks](https://github.com/ymanshur/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0874-backspace-string-compare](https://github.com/ymanshur/leetcode/tree/master/0874-backspace-string-compare) |
 ## Design
 |  |
 | ------- |
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ymanshur/leetcode/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
+| [0874-backspace-string-compare](https://github.com/ymanshur/leetcode/tree/master/0874-backspace-string-compare) |
 ## Tree
 |  |
 | ------- |
@@ -130,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
+| [0874-backspace-string-compare](https://github.com/ymanshur/leetcode/tree/master/0874-backspace-string-compare) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Backtracking
 |  |
