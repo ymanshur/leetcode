@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
+| [0409-longest-palindrome](https://github.com/ymanshur/leetcode/tree/master/0409-longest-palindrome) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## String
 |  |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/ymanshur/leetcode/tree/master/0020-valid-parentheses) |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
+| [0409-longest-palindrome](https://github.com/ymanshur/leetcode/tree/master/0409-longest-palindrome) |
 | [0874-backspace-string-compare](https://github.com/ymanshur/leetcode/tree/master/0874-backspace-string-compare) |
 ## Stack
 |  |
@@ -148,4 +150,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
+## Greedy
+|  |
+| ------- |
+| [0409-longest-palindrome](https://github.com/ymanshur/leetcode/tree/master/0409-longest-palindrome) |
 <!---LeetCode Topics End-->
