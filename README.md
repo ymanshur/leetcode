@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/ymanshur/leetcode/tree/master/0051-n-queens) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Binary Search
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/ymanshur/leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/ymanshur/leetcode/tree/master/0013-roman-to-integer) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## String
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -100,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 ## Math
 |  |
@@ -134,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Heap (Priority Queue)
 |  |
