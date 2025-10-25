@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/ymanshur/leetcode/tree/master/0051-n-queens) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ymanshur/leetcode/tree/master/0217-contains-duplicate) |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Binary Search
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/ymanshur/leetcode/tree/master/0013-roman-to-integer) |
 | [0141-linked-list-cycle](https://github.com/ymanshur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ymanshur/leetcode/tree/master/0217-contains-duplicate) |
 | [0383-ransom-note](https://github.com/ymanshur/leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/ymanshur/leetcode/tree/master/0409-longest-palindrome) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -147,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ymanshur/leetcode/tree/master/0217-contains-duplicate) |
 | [2479-meeting-rooms-iii](https://github.com/ymanshur/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Heap (Priority Queue)
 |  |
