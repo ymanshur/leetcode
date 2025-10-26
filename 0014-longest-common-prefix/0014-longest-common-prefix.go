@@ -5,7 +5,6 @@ func longestCommonPrefix(strs []string) string {
 
     lcp := strs[0]
     for i := 1; i < len(strs); i++ {
-        fmt.Println(lcp)
         lcp = longestCommonPrefixTwo(lcp, strs[i])
         if lcp == "" {
             break
