@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/ymanshur/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/ymanshur/leetcode/tree/master/0051-n-queens) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ymanshur/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0136-single-number](https://github.com/ymanshur/leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ymanshur/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ymanshur/leetcode/tree/master/0217-contains-duplicate) |
 | [0713-subarray-product-less-than-k](https://github.com/ymanshur/leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ymanshur/leetcode/tree/master/0067-add-binary) |
+| [0136-single-number](https://github.com/ymanshur/leetcode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/ymanshur/leetcode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/ymanshur/leetcode/tree/master/0338-counting-bits) |
 ## Simulation
