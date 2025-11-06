@@ -1,28 +1,30 @@
 func search(nums []int, target int) int {
-    left := 0
-    right := len(nums) - 1
-    for left <= right {
-        mid := (left + right) / 2
+    l := 0
+    r := len(nums) - 1
+    for l <= r {
+        m := l + (r - l) >> 1
 
-        if target == nums[mid] {
-            return mid
+        if target == nums[m] {
+            return m
         }
         
-        // left sorted portion
-        if nums[left] <= nums[mid] {
-            if target >= nums[left] && target <= nums[mid] {
-                right = mid - 1
+        // sorted side
+        if nums[l] <= nums[m] {
+            if target >= nums[l] && target <= nums[m] {
+                r = m - 1
             } else {
-                left = mid + 1
+                l = m + 1
             }
-        // right sorted portion
+
+            continue
+        }
+        
+        if target >= nums[m] && target <= nums[r] {
+            l = m + 1
         } else {
-            if target >= nums[mid] && target <= nums[right] {
-                left = mid + 1
-            } else {
-                right = mid - 1                
-            }
+            r = m - 1                
         }
     }
+
     return -1
 }
