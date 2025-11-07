@@ -6,23 +6,18 @@
  * func isBadVersion(version int) bool;
  */
 
-/**
- * 111100000000000
- * l  m  r      
- *
- */
-
 func firstBadVersion(n int) int {
-    low := 1
-    high := n
-    for (low < high) {
-        midd := (high + low) / 2
-        if (isBadVersion(midd)) {
-            high = midd
+    l, h := 1, n
+
+    for l < h {
+        m := l + (h - l) >> 1
+
+        if isBadVersion(m) {
+            h = m
         } else {
-            low = midd + 1
+            l = m + 1
         }
     }
 
-    return high
+    return h
 }
